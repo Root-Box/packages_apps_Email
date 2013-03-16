@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="account_setup_info_text_color">#ffffffff</color>
+    <color name="account_setup_label_text_color">#ff999999</color>
+    <color name="account_setup_divider_color">#ff333333</color>
+    <color name="message_list_item_background_unread">#ffb0b0b0</color>
+    <color name="message_list_item_background_read">#ffffffff</color>
+    <color name="account_folder_list_item_separator">#ffcccccc</color>
+    <color name="text_primary_color">#ffffffff</color>
+    <color name="text_secondary_color">#ff999999</color>
+    <color name="text_ternary_color">#ff555555</color>
+    <color name="text_disabled_color">#ff777777</color>
+    <color name="button_text_color">#ff888888</color>
+    <color name="button_text_disabled_color">#ff333333</color>
+    <color name="text_primary_color_inverse">#ff666666</color>
+    <color name="text_secondary_color_inverse">#ff111111</color>
+    <color name="divider_color">#ff707070</color>
+    <color name="mailbox_drop_unavailable_fg_color">#ff666666</color>
+    <color name="mailbox_drop_available_bg_color">#00000000</color>
+    <color name="widget_default_text_color">#ffffffff</color>
+    <color name="widget_light_text_color">#ff999999</color>
+    <color name="widget_title_color">#ff33b5e5</color>
+    <color name="widget_unread_color">#ff888888</color>
+    <color name="message_view_info_back_color">#ff333333</color>
+    <color name="message_view_header_color">#ff33b5e5</color>
+    <color name="message_activated_color">#ff33b5e5</color>
+    <color name="compose_label_text">#ff000000</color>
+    <color name="default_text_color">#ffffffff</color>
+    <color name="subject_text_color_unread">#ffaaaaaa</color>
+    <color name="snippet_text_color_unread">#ffaaaaaa</color>
+    <color name="senders_text_color_unread">#ff33b5e5</color>
+    <color name="subject_text_color_read">#ff888888</color>
+    <color name="snippet_text_color_read">#ff888888</color>
+    <color name="senders_text_color_read">#ff33b5e5</color>
+    <item type="color" name="date_text_color_unread">@color/senders_text_color_unread</item>
+    <item type="color" name="date_text_color_read">@color/senders_text_color_read</item>
+    <color name="label_list_heading_text_color">#ff888888</color>
+    <color name="actionbar_secondary">#ff888888</color>
+</resources>

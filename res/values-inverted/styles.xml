@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EmailTheme" parent="@*android:style/Theme.Holo" />
+	<style name="PlainEditText" parent="@*android:style/Widget.Holo.EditText">
+        <item name="android:background">#ff000000</item>
+    </style>
+    <style name="message_view_tab" parent="@*android:style/Widget.Holo.Tab">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">32.0dip</item>
+    </style>
+    <style name="AccountSpinnerDropdownTextSecondary">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+    <style name="ComposeFieldLayout" parent="@*android:style/Widget.Holo.EditText">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="message_view_subject">
+        <item name="android:enabled">false</item>
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="message_view_text">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+    <style name="subject_action_bar_title_text" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+</style>
+</resources>
